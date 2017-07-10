@@ -6,21 +6,23 @@ function checkParam()
     # Skynd
     if [[ $1 == "skynd" ]] ; then
         startScript skynd.xnl
+        exit 0
     fi
 
     if [[ $1 == "acheron" ]] ; then
         startScript acheron.xnl
+        exit 0
     fi
 
     if [[ $1 == "sorth" ]] ; then
-        startScript acheron.xnl
+        startScript sorth.xnl
+        exit 0
     fi
 
     if [[ $1 == "medusa" ]] ; then
-        startScript acheron.xnl
+        startScript medusa.xnl
+        exit 0
     fi
-
-    exit 0
 }
 
 function readFile()
@@ -48,10 +50,10 @@ function checkFile()
 
 function startScript()
 {
-    watch -n0 "DISPLAY=:0.0 cnee --replay --file ~/Repositories/github.com/hringriin/cookie-clicker-auto-click/repo/$1 --speed-percent 100 --force-core-replay --synchronised-replay"
+    watch -n0 "DISPLAY=:0.0 cnee --replay --file /home/hringriin/Repositories/github.com/hringriin/cookie-clicker-auto-click/repo/$1 --speed-percent 100 --force-core-replay --synchronised-replay"
 }
 
-checkParam
+checkParam $1
 
 readFile
 exit 0
