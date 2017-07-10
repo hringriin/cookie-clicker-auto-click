@@ -1,0 +1,703 @@
+####################################
+#         System information       #
+####################################
+# Date:                   2017:07:10 
+# Time:                   04:46:37 
+# Xnee program:           cnee 
+# Xnee version:           3.19 
+# Xnee home:              http://www.gnu.org/software/xnee/ 
+# Xnee info mailing list: info-xnee@gnu.org 
+# Xnee bug mailing list:  bug-xnee@gnu.org 
+# X version:              11 
+# X revision:             0 
+# X vendor:               The X.Org Foundation 
+# X vendor release:       11903000 
+# Record version major:   1
+# Record version minor:   13
+# OS name:                Linux 
+# OS Release:             4.11.7-1-ARCH 
+# OS Version:             #1 SMP PREEMPT Sat Jun 24 09:07:09 CEST 2017 
+# Machine:                x86_64 
+# Nodename:               skynd 
+# Display name:           :0
+# Dimension:              3840x1080
+
+
+
+##############################################
+#      Xnee application arguments            #
+##############################################
+#  cnee --record --mouse --out-file skynd.xnl --events-to-record 800 --time 3 
+
+
+##############################################
+#      Displays                              #
+##############################################
+# display :0
+# distribute
+
+
+##############################################
+#      Files                                 #
+##############################################
+# out-file skynd.xnl
+# err-file stderr
+
+
+##############################################
+#      Key Grabs                             #
+##############################################
+# stop-key         0
+# pause-key        0
+# resume-key       0
+# insert-key       0
+# exec-key         0
+# exec-program-key         xnee-exec-no-program
+
+
+##############################################
+#      Recording limits etc                  #
+##############################################
+
+events-to-record        800
+data-to-record          -1
+seconds-to-record       -1
+# first-last
+
+# Record  all (including current) clients or only future ones
+all-clients
+# future-clients
+
+# Store the starting mouse position 
+# store-mouse-position
+
+
+##############################################
+#      Resolution                            #
+##############################################
+
+# Resolution
+#recorded-resolution  3840x1080
+#replay-resolution  1x1
+#resolution-adjustment  0
+
+
+##############################################
+#      Speed                                 #
+##############################################
+
+# Speed
+#speed-percent  100
+
+
+##############################################
+#      Replaying limits etc                  #
+##############################################
+
+max-threshold 20 
+min-threshold 20 
+tot-threshold 40 
+
+
+##############################################
+#      Feedback                              #
+##############################################
+#feedback-none
+#feedback-stderr
+feedback-xosd
+ 
+
+
+##############################################
+#      Various                               #
+##############################################
+
+# Plugin file 
+
+# Modes (currently not used)
+# synchronised-replay
+
+# Replay offset
+#replay-offset 0x0
+
+# Human printout of X11 data (instead of Xnee format)
+# human-printout  
+
+# Delay before starting record/replay
+# time 3
+
+# No recording of ReparentNotify
+# no-reparent-recording 
+
+# Various
+#########################################
+#          Record settings              #
+#########################################
+#   data_flags          7
+#   rState              0x78f020
+#   xids[0]             3
+#   xids[1]             0
+# Number of Ranges      3
+# RecordRange[0]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         21-21 
+device-event-range            4-6 
+error-range                   0-0 
+# RecordRange[1]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         0-0 
+device-event-range            66-66 
+error-range                   0-0 
+# RecordRange[2]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         0-0 
+device-event-range            69-71 
+error-range                   0-0 
+7,5,0,0,1,0,0,818214,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818214,2,Virtual core pointer
+7,4,0,0,1,0,0,818224,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818224,2,Virtual core pointer
+7,5,0,0,1,0,0,818251,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818251,2,Virtual core pointer
+7,4,0,0,1,0,0,818261,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818261,2,Virtual core pointer
+7,5,0,0,1,0,0,818287,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818287,2,Virtual core pointer
+7,4,0,0,1,0,0,818297,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818297,2,Virtual core pointer
+7,5,0,0,1,0,0,818323,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818323,2,Virtual core pointer
+7,4,0,0,1,0,0,818334,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818334,2,Virtual core pointer
+7,5,0,0,1,0,0,818360,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818360,2,Virtual core pointer
+7,4,0,0,1,0,0,818370,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818370,2,Virtual core pointer
+7,5,0,0,1,0,0,818397,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818397,2,Virtual core pointer
+7,4,0,0,1,0,0,818407,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818407,2,Virtual core pointer
+7,5,0,0,1,0,0,818433,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818433,2,Virtual core pointer
+7,4,0,0,1,0,0,818444,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818444,2,Virtual core pointer
+7,5,0,0,1,0,0,818470,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818470,2,Virtual core pointer
+7,4,0,0,1,0,0,818480,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818480,2,Virtual core pointer
+7,5,0,0,1,0,0,818507,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818507,2,Virtual core pointer
+7,4,0,0,1,0,0,818517,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818517,2,Virtual core pointer
+7,5,0,0,1,0,0,818543,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818543,2,Virtual core pointer
+7,4,0,0,1,0,0,818554,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818554,2,Virtual core pointer
+7,5,0,0,1,0,0,818580,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818580,2,Virtual core pointer
+7,4,0,0,1,0,0,818590,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818590,2,Virtual core pointer
+7,5,0,0,1,0,0,818616,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818616,2,Virtual core pointer
+7,4,0,0,1,0,0,818627,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818627,2,Virtual core pointer
+7,5,0,0,1,0,0,818653,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818653,2,Virtual core pointer
+7,4,0,0,1,0,0,818664,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818664,2,Virtual core pointer
+7,5,0,0,1,0,0,818690,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818690,2,Virtual core pointer
+7,4,0,0,1,0,0,818700,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818700,2,Virtual core pointer
+7,5,0,0,1,0,0,818726,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818726,2,Virtual core pointer
+7,4,0,0,1,0,0,818737,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818737,2,Virtual core pointer
+7,5,0,0,1,0,0,818763,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818763,2,Virtual core pointer
+7,4,0,0,1,0,0,818774,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818774,2,Virtual core pointer
+7,5,0,0,1,0,0,818800,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818800,2,Virtual core pointer
+7,4,0,0,1,0,0,818810,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818810,2,Virtual core pointer
+7,5,0,0,1,0,0,818836,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818836,2,Virtual core pointer
+7,4,0,0,1,0,0,818847,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818847,2,Virtual core pointer
+7,5,0,0,1,0,0,818873,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818873,2,Virtual core pointer
+7,4,0,0,1,0,0,818884,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818884,2,Virtual core pointer
+7,5,0,0,1,0,0,818910,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818910,2,Virtual core pointer
+7,4,0,0,1,0,0,818920,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818920,2,Virtual core pointer
+7,5,0,0,1,0,0,818946,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818946,2,Virtual core pointer
+7,4,0,0,1,0,0,818957,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818957,2,Virtual core pointer
+7,5,0,0,1,0,0,818983,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,818983,2,Virtual core pointer
+7,4,0,0,1,0,0,818993,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,818993,2,Virtual core pointer
+7,5,0,0,1,0,0,819020,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819020,2,Virtual core pointer
+7,4,0,0,1,0,0,819030,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819030,2,Virtual core pointer
+7,5,0,0,1,0,0,819056,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819056,2,Virtual core pointer
+7,4,0,0,1,0,0,819067,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819067,2,Virtual core pointer
+7,5,0,0,1,0,0,819093,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819093,2,Virtual core pointer
+7,4,0,0,1,0,0,819103,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819103,2,Virtual core pointer
+7,5,0,0,1,0,0,819130,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819130,2,Virtual core pointer
+7,4,0,0,1,0,0,819140,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819140,2,Virtual core pointer
+7,5,0,0,1,0,0,819166,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819166,2,Virtual core pointer
+7,4,0,0,1,0,0,819177,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819177,2,Virtual core pointer
+7,5,0,0,1,0,0,819202,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819202,2,Virtual core pointer
+7,4,0,0,1,0,0,819213,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819213,2,Virtual core pointer
+7,5,0,0,1,0,0,819239,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819239,2,Virtual core pointer
+7,4,0,0,1,0,0,819249,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819249,2,Virtual core pointer
+7,5,0,0,1,0,0,819275,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819275,2,Virtual core pointer
+7,4,0,0,1,0,0,819286,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819286,2,Virtual core pointer
+7,5,0,0,1,0,0,819312,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819312,2,Virtual core pointer
+7,4,0,0,1,0,0,819323,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819323,2,Virtual core pointer
+7,5,0,0,1,0,0,819349,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819349,2,Virtual core pointer
+7,4,0,0,1,0,0,819359,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819359,2,Virtual core pointer
+7,5,0,0,1,0,0,819385,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819385,2,Virtual core pointer
+7,4,0,0,1,0,0,819396,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819396,2,Virtual core pointer
+7,5,0,0,1,0,0,819422,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819422,2,Virtual core pointer
+7,4,0,0,1,0,0,819432,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819432,2,Virtual core pointer
+7,5,0,0,1,0,0,819459,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819459,2,Virtual core pointer
+7,4,0,0,1,0,0,819469,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819469,2,Virtual core pointer
+7,5,0,0,1,0,0,819495,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819495,2,Virtual core pointer
+7,4,0,0,1,0,0,819506,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819506,2,Virtual core pointer
+7,5,0,0,1,0,0,819532,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819532,2,Virtual core pointer
+7,4,0,0,1,0,0,819542,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819542,2,Virtual core pointer
+7,5,0,0,1,0,0,819568,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819568,2,Virtual core pointer
+7,4,0,0,1,0,0,819579,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819579,2,Virtual core pointer
+7,5,0,0,1,0,0,819605,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819605,2,Virtual core pointer
+7,4,0,0,1,0,0,819616,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819616,2,Virtual core pointer
+7,5,0,0,1,0,0,819641,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819641,2,Virtual core pointer
+7,4,0,0,1,0,0,819652,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819652,2,Virtual core pointer
+7,5,0,0,1,0,0,819678,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819678,2,Virtual core pointer
+7,4,0,0,1,0,0,819688,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819688,2,Virtual core pointer
+7,5,0,0,1,0,0,819714,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819714,2,Virtual core pointer
+7,4,0,0,1,0,0,819725,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819725,2,Virtual core pointer
+7,5,0,0,1,0,0,819751,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819751,2,Virtual core pointer
+7,4,0,0,1,0,0,819761,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819761,2,Virtual core pointer
+7,5,0,0,1,0,0,819788,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819788,2,Virtual core pointer
+7,4,0,0,1,0,0,819798,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819798,2,Virtual core pointer
+7,5,0,0,1,0,0,819824,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819824,2,Virtual core pointer
+7,4,0,0,1,0,0,819835,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819835,2,Virtual core pointer
+7,5,0,0,1,0,0,819861,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819861,2,Virtual core pointer
+7,4,0,0,1,0,0,819871,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819871,2,Virtual core pointer
+7,5,0,0,1,0,0,819897,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819897,2,Virtual core pointer
+7,4,0,0,1,0,0,819908,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819908,2,Virtual core pointer
+7,5,0,0,1,0,0,819934,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819934,2,Virtual core pointer
+7,4,0,0,1,0,0,819945,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819945,2,Virtual core pointer
+7,5,0,0,1,0,0,819970,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,819970,2,Virtual core pointer
+7,4,0,0,1,0,0,819981,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,819981,2,Virtual core pointer
+7,5,0,0,1,0,0,820007,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820007,2,Virtual core pointer
+7,4,0,0,1,0,0,820018,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820018,2,Virtual core pointer
+7,5,0,0,1,0,0,820044,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820044,2,Virtual core pointer
+7,4,0,0,1,0,0,820054,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820054,2,Virtual core pointer
+7,5,0,0,1,0,0,820080,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820080,2,Virtual core pointer
+7,4,0,0,1,0,0,820091,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820091,2,Virtual core pointer
+7,5,0,0,1,0,0,820117,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820117,2,Virtual core pointer
+7,4,0,0,1,0,0,820127,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820127,2,Virtual core pointer
+7,5,0,0,1,0,0,820153,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820153,2,Virtual core pointer
+7,4,0,0,1,0,0,820164,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820164,2,Virtual core pointer
+7,5,0,0,1,0,0,820190,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820190,2,Virtual core pointer
+7,4,0,0,1,0,0,820201,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820201,2,Virtual core pointer
+7,5,0,0,1,0,0,820227,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820227,2,Virtual core pointer
+7,4,0,0,1,0,0,820237,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820237,2,Virtual core pointer
+7,5,0,0,1,0,0,820263,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820263,2,Virtual core pointer
+7,4,0,0,1,0,0,820274,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820274,2,Virtual core pointer
+7,5,0,0,1,0,0,820300,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820300,2,Virtual core pointer
+7,4,0,0,1,0,0,820310,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820310,2,Virtual core pointer
+7,5,0,0,1,0,0,820337,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820337,2,Virtual core pointer
+7,4,0,0,1,0,0,820347,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820347,2,Virtual core pointer
+7,5,0,0,1,0,0,820373,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820373,2,Virtual core pointer
+7,4,0,0,1,0,0,820384,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820384,2,Virtual core pointer
+7,5,0,0,1,0,0,820410,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820410,2,Virtual core pointer
+7,4,0,0,1,0,0,820420,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820420,2,Virtual core pointer
+7,5,0,0,1,0,0,820447,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820447,2,Virtual core pointer
+7,4,0,0,1,0,0,820457,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820457,2,Virtual core pointer
+7,5,0,0,1,0,0,820483,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820483,2,Virtual core pointer
+7,4,0,0,1,0,0,820494,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820494,2,Virtual core pointer
+7,5,0,0,1,0,0,820519,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820519,2,Virtual core pointer
+7,4,0,0,1,0,0,820530,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820530,2,Virtual core pointer
+7,5,0,0,1,0,0,820556,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820556,2,Virtual core pointer
+7,4,0,0,1,0,0,820566,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820566,2,Virtual core pointer
+7,5,0,0,1,0,0,820592,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820592,2,Virtual core pointer
+7,4,0,0,1,0,0,820603,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820603,2,Virtual core pointer
+7,5,0,0,1,0,0,820629,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820629,2,Virtual core pointer
+7,4,0,0,1,0,0,820639,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820639,2,Virtual core pointer
+7,5,0,0,1,0,0,820666,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820666,2,Virtual core pointer
+7,4,0,0,1,0,0,820676,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820676,2,Virtual core pointer
+7,5,0,0,1,0,0,820702,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820702,2,Virtual core pointer
+7,4,0,0,1,0,0,820713,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820713,2,Virtual core pointer
+7,5,0,0,1,0,0,820739,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820739,2,Virtual core pointer
+7,4,0,0,1,0,0,820749,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820749,2,Virtual core pointer
+7,5,0,0,1,0,0,820775,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820775,2,Virtual core pointer
+7,4,0,0,1,0,0,820786,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820786,2,Virtual core pointer
+7,5,0,0,1,0,0,820812,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820812,2,Virtual core pointer
+7,4,0,0,1,0,0,820823,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820823,2,Virtual core pointer
+7,5,0,0,1,0,0,820849,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820849,2,Virtual core pointer
+7,4,0,0,1,0,0,820859,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820859,2,Virtual core pointer
+7,5,0,0,1,0,0,820885,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820885,2,Virtual core pointer
+7,4,0,0,1,0,0,820896,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820896,2,Virtual core pointer
+7,5,0,0,1,0,0,820922,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820922,2,Virtual core pointer
+7,4,0,0,1,0,0,820932,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820932,2,Virtual core pointer
+7,5,0,0,1,0,0,820958,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820958,2,Virtual core pointer
+7,4,0,0,1,0,0,820969,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,820969,2,Virtual core pointer
+7,5,0,0,1,0,0,820995,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,820995,2,Virtual core pointer
+7,4,0,0,1,0,0,821006,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821006,2,Virtual core pointer
+7,5,0,0,1,0,0,821031,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821031,2,Virtual core pointer
+7,4,0,0,1,0,0,821042,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821042,2,Virtual core pointer
+7,5,0,0,1,0,0,821068,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821068,2,Virtual core pointer
+7,4,0,0,1,0,0,821079,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821079,2,Virtual core pointer
+7,5,0,0,1,0,0,821105,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821105,2,Virtual core pointer
+7,4,0,0,1,0,0,821115,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821115,2,Virtual core pointer
+7,5,0,0,1,0,0,821141,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821141,2,Virtual core pointer
+7,4,0,0,1,0,0,821152,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821152,2,Virtual core pointer
+7,5,0,0,1,0,0,821178,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821178,2,Virtual core pointer
+7,4,0,0,1,0,0,821189,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821189,2,Virtual core pointer
+7,5,0,0,1,0,0,821215,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821215,2,Virtual core pointer
+7,4,0,0,1,0,0,821225,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821225,2,Virtual core pointer
+7,5,0,0,1,0,0,821251,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821251,2,Virtual core pointer
+7,4,0,0,1,0,0,821262,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821262,2,Virtual core pointer
+7,5,0,0,1,0,0,821288,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821288,2,Virtual core pointer
+7,4,0,0,1,0,0,821299,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821299,2,Virtual core pointer
+7,5,0,0,1,0,0,821325,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821325,2,Virtual core pointer
+7,4,0,0,1,0,0,821335,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821335,2,Virtual core pointer
+7,5,0,0,1,0,0,821361,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821361,2,Virtual core pointer
+7,4,0,0,1,0,0,821372,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821372,2,Virtual core pointer
+7,5,0,0,1,0,0,821398,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821398,2,Virtual core pointer
+7,4,0,0,1,0,0,821408,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821408,2,Virtual core pointer
+7,5,0,0,1,0,0,821435,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821435,2,Virtual core pointer
+7,4,0,0,1,0,0,821445,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821445,2,Virtual core pointer
+7,5,0,0,1,0,0,821471,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821471,2,Virtual core pointer
+7,4,0,0,1,0,0,821482,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821482,2,Virtual core pointer
+7,5,0,0,1,0,0,821508,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821508,2,Virtual core pointer
+7,4,0,0,1,0,0,821518,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821518,2,Virtual core pointer
+7,5,0,0,1,0,0,821544,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821544,2,Virtual core pointer
+7,4,0,0,1,0,0,821555,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821555,2,Virtual core pointer
+7,5,0,0,1,0,0,821581,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821581,2,Virtual core pointer
+7,4,0,0,1,0,0,821592,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821592,2,Virtual core pointer
+7,5,0,0,1,0,0,821618,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821618,2,Virtual core pointer
+7,4,0,0,1,0,0,821628,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821628,2,Virtual core pointer
+7,5,0,0,1,0,0,821654,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821654,2,Virtual core pointer
+7,4,0,0,1,0,0,821665,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821665,2,Virtual core pointer
+7,5,0,0,1,0,0,821691,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821691,2,Virtual core pointer
+7,4,0,0,1,0,0,821701,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821701,2,Virtual core pointer
+7,5,0,0,1,0,0,821727,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821727,2,Virtual core pointer
+7,4,0,0,1,0,0,821738,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821738,2,Virtual core pointer
+7,5,0,0,1,0,0,821764,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821764,2,Virtual core pointer
+7,4,0,0,1,0,0,821775,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821775,2,Virtual core pointer
+7,5,0,0,1,0,0,821801,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821801,2,Virtual core pointer
+7,4,0,0,1,0,0,821811,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821811,2,Virtual core pointer
+7,5,0,0,1,0,0,821837,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821837,2,Virtual core pointer
+7,4,0,0,1,0,0,821848,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821848,2,Virtual core pointer
+7,5,0,0,1,0,0,821874,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821874,2,Virtual core pointer
+7,4,0,0,1,0,0,821884,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821884,2,Virtual core pointer
+7,5,0,0,1,0,0,821910,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821910,2,Virtual core pointer
+7,4,0,0,1,0,0,821921,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821921,2,Virtual core pointer
+7,5,0,0,1,0,0,821947,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821947,2,Virtual core pointer
+7,4,0,0,1,0,0,821957,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821957,2,Virtual core pointer
+7,5,0,0,1,0,0,821984,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,821984,2,Virtual core pointer
+7,4,0,0,1,0,0,821994,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,821994,2,Virtual core pointer
+7,5,0,0,1,0,0,822020,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822020,2,Virtual core pointer
+7,4,0,0,1,0,0,822031,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822031,2,Virtual core pointer
+7,5,0,0,1,0,0,822057,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822057,2,Virtual core pointer
+7,4,0,0,1,0,0,822067,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822067,2,Virtual core pointer
+7,5,0,0,1,0,0,822093,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822093,2,Virtual core pointer
+7,4,0,0,1,0,0,822104,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822104,2,Virtual core pointer
+7,5,0,0,1,0,0,822130,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822130,2,Virtual core pointer
+7,4,0,0,1,0,0,822141,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822141,2,Virtual core pointer
+7,5,0,0,1,0,0,822167,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822167,2,Virtual core pointer
+7,4,0,0,1,0,0,822177,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822177,2,Virtual core pointer
+7,5,0,0,1,0,0,822203,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822203,2,Virtual core pointer
+7,4,0,0,1,0,0,822214,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822214,2,Virtual core pointer
+7,5,0,0,1,0,0,822240,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822240,2,Virtual core pointer
+7,4,0,0,1,0,0,822250,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822250,2,Virtual core pointer
+7,5,0,0,1,0,0,822276,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822276,2,Virtual core pointer
+7,4,0,0,1,0,0,822287,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822287,2,Virtual core pointer
+7,5,0,0,1,0,0,822313,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822313,2,Virtual core pointer
+7,4,0,0,1,0,0,822324,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822324,2,Virtual core pointer
+7,5,0,0,1,0,0,822349,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822349,2,Virtual core pointer
+7,4,0,0,1,0,0,822360,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822360,2,Virtual core pointer
+7,5,0,0,1,0,0,822386,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822386,2,Virtual core pointer
+7,4,0,0,1,0,0,822396,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822396,2,Virtual core pointer
+7,5,0,0,1,0,0,822423,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822423,2,Virtual core pointer
+7,4,0,0,1,0,0,822433,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822433,2,Virtual core pointer
+7,5,0,0,1,0,0,822459,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822459,2,Virtual core pointer
+7,4,0,0,1,0,0,822470,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822470,2,Virtual core pointer
+7,5,0,0,1,0,0,822496,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822496,2,Virtual core pointer
+7,4,0,0,1,0,0,822506,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822506,2,Virtual core pointer
+7,5,0,0,1,0,0,822533,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822533,2,Virtual core pointer
+7,4,0,0,1,0,0,822543,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822543,2,Virtual core pointer
+7,5,0,0,1,0,0,822569,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822569,2,Virtual core pointer
+7,4,0,0,1,0,0,822580,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822580,2,Virtual core pointer
+7,5,0,0,1,0,0,822606,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822606,2,Virtual core pointer
+7,4,0,0,1,0,0,822616,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822616,2,Virtual core pointer
+7,5,0,0,1,0,0,822643,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822643,2,Virtual core pointer
+7,4,0,0,1,0,0,822653,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822653,2,Virtual core pointer
+7,5,0,0,1,0,0,822679,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822679,2,Virtual core pointer
+7,4,0,0,1,0,0,822690,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822690,2,Virtual core pointer
+7,5,0,0,1,0,0,822716,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822716,2,Virtual core pointer
+7,4,0,0,1,0,0,822726,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822726,2,Virtual core pointer
+7,5,0,0,1,0,0,822753,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822753,2,Virtual core pointer
+7,4,0,0,1,0,0,822763,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822763,2,Virtual core pointer
+7,5,0,0,1,0,0,822789,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822789,2,Virtual core pointer
+7,4,0,0,1,0,0,822800,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822800,2,Virtual core pointer
+7,5,0,0,1,0,0,822826,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822826,2,Virtual core pointer
+7,4,0,0,1,0,0,822836,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822836,2,Virtual core pointer
+7,5,0,0,1,0,0,822862,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822862,2,Virtual core pointer
+7,4,0,0,1,0,0,822873,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822873,2,Virtual core pointer
+7,5,0,0,1,0,0,822899,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822899,2,Virtual core pointer
+7,4,0,0,1,0,0,822910,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822910,2,Virtual core pointer
+7,5,0,0,1,0,0,822935,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822935,2,Virtual core pointer
+7,4,0,0,1,0,0,822946,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822946,2,Virtual core pointer
+7,5,0,0,1,0,0,822972,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,822972,2,Virtual core pointer
+7,4,0,0,1,0,0,822983,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,822983,2,Virtual core pointer
+7,5,0,0,1,0,0,823008,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,823008,2,Virtual core pointer
+7,4,0,0,1,0,0,823019,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,823019,2,Virtual core pointer
+7,5,0,0,1,0,0,823045,10,ROCCAT ROCCAT Tyon Black
+6,5,0,0,1,0,0,823045,2,Virtual core pointer
+7,4,0,0,1,0,0,823055,10,ROCCAT ROCCAT Tyon Black
+6,4,0,0,1,0,0,823055,2,Virtual core pointer
+7,5,0,0,1,0,0,823082,10,ROCCAT ROCCAT Tyon Black

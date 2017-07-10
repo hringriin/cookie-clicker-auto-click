@@ -1,0 +1,442 @@
+####################################
+#         System information       #
+####################################
+# Date:                   2017:07:10 
+# Time:                   04:32:06 
+# Xnee program:           cnee 
+# Xnee version:           3.19 
+# Xnee home:              http://www.gnu.org/software/xnee/ 
+# Xnee info mailing list: info-xnee@gnu.org 
+# Xnee bug mailing list:  bug-xnee@gnu.org 
+# X version:              11 
+# X revision:             0 
+# X vendor:               The X.Org Foundation 
+# X vendor release:       11903000 
+# Record version major:   1
+# Record version minor:   13
+# OS name:                Linux 
+# OS Release:             4.11.9-1-ARCH 
+# OS Version:             #1 SMP PREEMPT Wed Jul 5 18:23:08 CEST 2017 
+# Machine:                x86_64 
+# Nodename:               acheron 
+# Display name:           :0
+# Dimension:              1366x768
+
+
+
+##############################################
+#      Xnee application arguments            #
+##############################################
+#  cnee --record --mouse --out-file acheron.xnl --events-to-record 800 --time 3 
+
+
+##############################################
+#      Displays                              #
+##############################################
+# display :0
+# distribute
+
+
+##############################################
+#      Files                                 #
+##############################################
+# out-file acheron.xnl
+# err-file stderr
+
+
+##############################################
+#      Key Grabs                             #
+##############################################
+# stop-key         0
+# pause-key        0
+# resume-key       0
+# insert-key       0
+# exec-key         0
+# exec-program-key         xnee-exec-no-program
+
+
+##############################################
+#      Recording limits etc                  #
+##############################################
+
+events-to-record        800
+data-to-record          -1
+seconds-to-record       -1
+# first-last
+
+# Record  all (including current) clients or only future ones
+all-clients
+# future-clients
+
+# Store the starting mouse position 
+# store-mouse-position
+
+
+##############################################
+#      Resolution                            #
+##############################################
+
+# Resolution
+#recorded-resolution  1366x768
+#replay-resolution  1x1
+#resolution-adjustment  0
+
+
+##############################################
+#      Speed                                 #
+##############################################
+
+# Speed
+#speed-percent  100
+
+
+##############################################
+#      Replaying limits etc                  #
+##############################################
+
+max-threshold 20 
+min-threshold 20 
+tot-threshold 40 
+
+
+##############################################
+#      Feedback                              #
+##############################################
+#feedback-none
+#feedback-stderr
+feedback-xosd
+ 
+
+
+##############################################
+#      Various                               #
+##############################################
+
+# Plugin file 
+
+# Modes (currently not used)
+# synchronised-replay
+
+# Replay offset
+#replay-offset 0x0
+
+# Human printout of X11 data (instead of Xnee format)
+# human-printout  
+
+# Delay before starting record/replay
+# time 3
+
+# No recording of ReparentNotify
+# no-reparent-recording 
+
+# Various
+#########################################
+#          Record settings              #
+#########################################
+#   data_flags          7
+#   rState              0x237e020
+#   xids[0]             3
+#   xids[1]             0
+# Number of Ranges      3
+# RecordRange[0]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         21-21 
+device-event-range            4-6 
+error-range                   0-0 
+# RecordRange[1]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         0-0 
+device-event-range            66-66 
+error-range                   0-0 
+# RecordRange[2]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         0-0 
+device-event-range            69-71 
+error-range                   0-0 
+7,4,0,0,1,0,0,10889129,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10889129,2,Virtual core pointer
+7,5,0,0,1,0,0,10889189,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10889189,2,Virtual core pointer
+7,4,0,0,1,0,0,10889298,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10889298,2,Virtual core pointer
+7,5,0,0,1,0,0,10889338,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10889338,2,Virtual core pointer
+7,4,0,0,1,0,0,10889417,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10889417,2,Virtual core pointer
+7,5,0,0,1,0,0,10889486,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10889486,2,Virtual core pointer
+7,4,0,0,1,0,0,10889546,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10889546,2,Virtual core pointer
+7,5,0,0,1,0,0,10889628,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10889628,2,Virtual core pointer
+7,4,0,0,1,0,0,10889674,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10889674,2,Virtual core pointer
+7,5,0,0,1,0,0,10889744,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10889744,2,Virtual core pointer
+7,4,0,0,1,0,0,10889823,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10889823,2,Virtual core pointer
+7,5,0,0,1,0,0,10889873,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10889873,2,Virtual core pointer
+7,4,0,0,1,0,0,10889952,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10889952,2,Virtual core pointer
+7,5,0,0,1,0,0,10890012,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10890012,2,Virtual core pointer
+7,4,0,0,1,0,0,10890092,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10890092,2,Virtual core pointer
+7,5,0,0,1,0,0,10890133,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10890133,2,Virtual core pointer
+7,4,0,0,1,0,0,10890220,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10890220,2,Virtual core pointer
+7,5,0,0,1,0,0,10890289,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10890289,2,Virtual core pointer
+7,4,0,0,1,0,0,10890349,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10890349,2,Virtual core pointer
+7,5,0,0,1,0,0,10890418,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10890418,2,Virtual core pointer
+7,4,0,0,1,0,0,10890488,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10890488,2,Virtual core pointer
+7,5,0,0,1,0,0,10890537,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10890537,2,Virtual core pointer
+7,4,0,0,1,0,0,10890607,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10890607,2,Virtual core pointer
+7,5,0,0,1,0,0,10890676,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10890676,2,Virtual core pointer
+7,4,0,0,1,0,0,10890745,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10890745,2,Virtual core pointer
+7,5,0,0,1,0,0,10890805,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10890805,2,Virtual core pointer
+7,4,0,0,1,0,0,10890874,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10890874,2,Virtual core pointer
+7,5,0,0,1,0,0,10890934,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10890934,2,Virtual core pointer
+7,4,0,0,1,0,0,10890994,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10890994,2,Virtual core pointer
+7,5,0,0,1,0,0,10891063,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10891063,2,Virtual core pointer
+7,4,0,0,1,0,0,10891122,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10891122,2,Virtual core pointer
+7,5,0,0,1,0,0,10891181,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10891181,2,Virtual core pointer
+7,4,0,0,1,0,0,10891251,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10891251,2,Virtual core pointer
+7,5,0,0,1,0,0,10891310,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10891310,2,Virtual core pointer
+7,4,0,0,1,0,0,10891370,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10891370,2,Virtual core pointer
+7,5,0,0,1,0,0,10891439,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10891439,2,Virtual core pointer
+7,4,0,0,1,0,0,10891509,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10891509,2,Virtual core pointer
+7,5,0,0,1,0,0,10891559,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10891559,2,Virtual core pointer
+7,4,0,0,1,0,0,10891628,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10891628,2,Virtual core pointer
+7,5,0,0,1,0,0,10891687,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10891687,2,Virtual core pointer
+7,4,0,0,1,0,0,10891747,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10891747,2,Virtual core pointer
+7,5,0,0,1,0,0,10891826,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10891826,2,Virtual core pointer
+7,4,0,0,1,0,0,10891875,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10891875,2,Virtual core pointer
+7,5,0,0,1,0,0,10891955,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10891955,2,Virtual core pointer
+7,4,0,0,1,0,0,10891995,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10891995,2,Virtual core pointer
+7,5,0,0,1,0,0,10892064,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10892064,2,Virtual core pointer
+7,4,0,0,1,0,0,10892114,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10892114,2,Virtual core pointer
+7,5,0,0,1,0,0,10892175,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10892175,2,Virtual core pointer
+7,4,0,0,1,0,0,10892242,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10892242,2,Virtual core pointer
+7,5,0,0,1,0,0,10892322,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10892322,2,Virtual core pointer
+7,4,0,0,1,0,0,10892371,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10892371,2,Virtual core pointer
+7,5,0,0,1,0,0,10892451,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10892451,2,Virtual core pointer
+7,4,0,0,1,0,0,10892500,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10892500,2,Virtual core pointer
+7,5,0,0,1,0,0,10892570,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10892570,2,Virtual core pointer
+7,4,0,0,1,0,0,10892629,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10892629,2,Virtual core pointer
+7,5,0,0,1,0,0,10892698,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10892698,2,Virtual core pointer
+7,4,0,0,1,0,0,10892768,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10892768,2,Virtual core pointer
+7,5,0,0,1,0,0,10892837,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10892837,2,Virtual core pointer
+7,4,0,0,1,0,0,10892897,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10892897,2,Virtual core pointer
+7,5,0,0,1,0,0,10892966,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10892966,2,Virtual core pointer
+7,4,0,0,1,0,0,10893026,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10893026,2,Virtual core pointer
+7,5,0,0,1,0,0,10893085,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10893085,2,Virtual core pointer
+7,4,0,0,1,0,0,10893165,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10893165,2,Virtual core pointer
+7,5,0,0,1,0,0,10893217,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10893217,2,Virtual core pointer
+7,4,0,0,1,0,0,10893286,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10893286,2,Virtual core pointer
+7,5,0,0,1,0,0,10893356,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10893356,2,Virtual core pointer
+7,4,0,0,1,0,0,10893415,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10893415,2,Virtual core pointer
+7,5,0,0,1,0,0,10893485,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10893485,2,Virtual core pointer
+7,4,0,0,1,0,0,10893544,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10893544,2,Virtual core pointer
+7,5,0,0,1,0,0,10893614,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10893614,2,Virtual core pointer
+7,4,0,0,1,0,0,10893674,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10893674,2,Virtual core pointer
+7,5,0,0,1,0,0,10893746,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10893746,2,Virtual core pointer
+7,4,0,0,1,0,0,10893815,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10893815,2,Virtual core pointer
+7,5,0,0,1,0,0,10893875,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10893875,2,Virtual core pointer
+7,4,0,0,1,0,0,10893944,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10893944,2,Virtual core pointer
+7,5,0,0,1,0,0,10894014,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10894014,2,Virtual core pointer
+7,4,0,0,1,0,0,10894083,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10894083,2,Virtual core pointer
+7,5,0,0,1,0,0,10894143,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10894143,2,Virtual core pointer
+7,4,0,0,1,0,0,10894212,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10894212,2,Virtual core pointer
+7,5,0,0,1,0,0,10894271,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10894271,2,Virtual core pointer
+7,4,0,0,1,0,0,10894340,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10894340,2,Virtual core pointer
+7,5,0,0,1,0,0,10894400,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10894400,2,Virtual core pointer
+7,4,0,0,1,0,0,10894470,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10894470,2,Virtual core pointer
+7,5,0,0,1,0,0,10894529,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10894529,2,Virtual core pointer
+7,4,0,0,1,0,0,10894599,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10894599,2,Virtual core pointer
+7,5,0,0,1,0,0,10894668,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10894668,2,Virtual core pointer
+7,4,0,0,1,0,0,10894737,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10894737,2,Virtual core pointer
+7,5,0,0,1,0,0,10894816,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10894816,2,Virtual core pointer
+7,4,0,0,1,0,0,10894876,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10894876,2,Virtual core pointer
+7,5,0,0,1,0,0,10894955,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10894955,2,Virtual core pointer
+7,4,0,0,1,0,0,10895005,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10895005,2,Virtual core pointer
+7,5,0,0,1,0,0,10895075,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10895075,2,Virtual core pointer
+7,4,0,0,1,0,0,10895134,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10895134,2,Virtual core pointer
+7,5,0,0,1,0,0,10895215,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10895215,2,Virtual core pointer
+7,4,0,0,1,0,0,10895272,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10895272,2,Virtual core pointer
+7,5,0,0,1,0,0,10895352,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10895352,2,Virtual core pointer
+7,4,0,0,1,0,0,10895411,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10895411,2,Virtual core pointer
+7,5,0,0,1,0,0,10895491,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10895491,2,Virtual core pointer
+7,4,0,0,1,0,0,10895550,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10895550,2,Virtual core pointer
+7,5,0,0,1,0,0,10895630,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10895630,2,Virtual core pointer
+7,4,0,0,1,0,0,10895689,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10895689,2,Virtual core pointer
+7,5,0,0,1,0,0,10895768,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10895768,2,Virtual core pointer
+7,4,0,0,1,0,0,10895828,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10895828,2,Virtual core pointer
+7,5,0,0,1,0,0,10895897,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10895897,2,Virtual core pointer
+7,4,0,0,1,0,0,10895957,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10895957,2,Virtual core pointer
+7,5,0,0,1,0,0,10896026,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10896026,2,Virtual core pointer
+7,4,0,0,1,0,0,10896086,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10896086,2,Virtual core pointer
+7,5,0,0,1,0,0,10896155,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10896155,2,Virtual core pointer
+7,4,0,0,1,0,0,10896227,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10896227,2,Virtual core pointer
+7,5,0,0,1,0,0,10896303,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10896303,2,Virtual core pointer
+7,4,0,0,1,0,0,10896353,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10896353,2,Virtual core pointer
+7,5,0,0,1,0,0,10896432,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10896432,2,Virtual core pointer
+7,4,0,0,1,0,0,10896492,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10896492,2,Virtual core pointer
+7,5,0,0,1,0,0,10896562,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10896562,2,Virtual core pointer
+7,4,0,0,1,0,0,10896621,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10896621,2,Virtual core pointer
+7,5,0,0,1,0,0,10896701,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10896701,2,Virtual core pointer
+7,4,0,0,1,0,0,10896749,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10896749,2,Virtual core pointer
+7,5,0,0,1,0,0,10896829,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10896829,2,Virtual core pointer
+7,4,0,0,1,0,0,10896888,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10896888,2,Virtual core pointer
+7,5,0,0,1,0,0,10896978,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10896978,2,Virtual core pointer
+7,4,0,0,1,0,0,10897018,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10897018,2,Virtual core pointer
+7,5,0,0,1,0,0,10897097,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10897097,2,Virtual core pointer
+7,4,0,0,1,0,0,10897147,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10897147,2,Virtual core pointer
+7,5,0,0,1,0,0,10897216,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10897216,2,Virtual core pointer
+7,4,0,0,1,0,0,10897285,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10897285,2,Virtual core pointer
+7,5,0,0,1,0,0,10897354,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10897354,2,Virtual core pointer
+7,4,0,0,1,0,0,10897414,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10897414,2,Virtual core pointer
+7,5,0,0,1,0,0,10897483,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10897483,2,Virtual core pointer
+7,4,0,0,1,0,0,10897553,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10897553,2,Virtual core pointer
+7,5,0,0,1,0,0,10897622,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10897622,2,Virtual core pointer
+7,4,0,0,1,0,0,10897682,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10897682,2,Virtual core pointer
+7,5,0,0,1,0,0,10897753,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10897753,2,Virtual core pointer
+7,4,0,0,1,0,0,10897810,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10897810,2,Virtual core pointer
+7,5,0,0,1,0,0,10897890,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10897890,2,Virtual core pointer
+7,4,0,0,1,0,0,10897920,12,TPPS/2 IBM TrackPoint
+6,4,0,0,1,0,0,10897920,2,Virtual core pointer
+7,5,0,0,1,0,0,10897999,12,TPPS/2 IBM TrackPoint
+6,5,0,0,1,0,0,10897999,2,Virtual core pointer
