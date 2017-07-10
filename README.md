@@ -38,5 +38,12 @@ I've placed a keybinding there to start and stop the script without a shell open
 By ***all*** I ***mean*** all!***
 
 
+## createxnl.py
+
+As soon as I understand this file, I will provide more information.
+You definitely do not need to start that script manually.
+Just do not touch it ;-)
+
+
 [i3wm]: https://i3wm.org "i3wm"
 [dotfilesrepo]: https://github.com/hringriin/dotfiles "My Dotfiles"
