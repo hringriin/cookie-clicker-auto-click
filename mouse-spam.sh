@@ -8,6 +8,18 @@ function checkParam()
         startScript skynd.xnl
     fi
 
+    if [[ $1 == "acheron" ]] ; then
+        startScript acheron.xnl
+    fi
+
+    if [[ $1 == "sorth" ]] ; then
+        startScript acheron.xnl
+    fi
+
+    if [[ $1 == "medusa" ]] ; then
+        startScript acheron.xnl
+    fi
+
     exit 0
 }
 
